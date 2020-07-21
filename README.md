@@ -28,9 +28,9 @@ Next, we will start the environment! Before running the code cell below, change 
     Linux (x86, headless): "path/to/Tennis_Linux_NoVis/Tennis.x86"
     Linux (x86_64, headless): "path/to/Tennis_Linux_NoVis/Tennis.x86_64"
 
-For instance, if you are using a Mac, then you downloaded Tennis.app. If this file is in the same folder as the notebook, then the line below should appear as follows:
+For instance, if you are using a Linux machine, then you downloaded Tennis.x86_64. If this file is in the same folder as the notebook, then the line below should appear as follows:
 
-env = UnityEnvironment(file_name="./Tennis_Linux/Tennis.x86_64", worker_id=162, no_graphics=True)
+env = UnityEnvironment(file_name="/home/ubuntu/udacity/deep-reinforcement-learning/p3_collab-compet/Tennis_Linux/Tennis.x86_64", worker_id=162, no_graphics=True)
 
 
 In this notebook, the **Directory** structure below is used:
@@ -81,3 +81,14 @@ state_size = states.shape[1]
 print('There are {} agents. Each observes a state with length: {}'.format(states.shape[0], state_size))
 
 print('The state for the first agent looks like:', states[0])
+
+
+#### 4. Running the Training sessions
+
+1. Launch the "Tennis-64x512.v_0.2.ipynb" notebook
+
+2. From menu, select Kernel -> Reset & Run All
+
+
+
+
