@@ -35,6 +35,13 @@ env = UnityEnvironment(file_name="/home/ubuntu/udacity/deep-reinforcement-learni
 
 In this notebook, the **Directory** structure below is used:
 
+#### 0. Supporting Files
+agent.py - containing the ddpg agent class
+model.py - containing the actor and the critic
+utils.py - containing helper functions
+noise.py - containing the OU Noise class
+replaybuffer.py - containing the ReplayBuffer class
+
 
 #### 1. Directory Structure
 
